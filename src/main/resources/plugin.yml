@@ -1,0 +1,15 @@
+name: hideArmor
+version: '1.0-SNAPSHOT'
+main: me.leeyu.hideArmor.HideArmor
+api-version: '1.21'
+softdepend:
+  - ProtocolLib
+commands:
+  갑옷숨기기:
+    description: 자신의 갑옷을 다른 유저에게 숨깁니다.
+    usage: /<command>
+    aliases: [rkqdhttnarlrl, 갑옷숨김, rkqdhttnarla]
+  갑옷숨기기리로드:
+    description: 설정을 다시 불러옵니다.
+    usage: /<command>
+    aliases: [rkqdhttnarlrlflfhem]
