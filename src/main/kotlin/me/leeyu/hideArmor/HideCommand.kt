@@ -16,9 +16,9 @@ class HideCommand : CommandExecutor {
 
         val toggled = HideManager.toggle(player)
         if (toggled) {
-            player.sendMessage("§e이제 다른 사람에게 갑옷이 보이지 않습니다.")
+            player.sendMessage("§e갑옷이 숨겨졌습니다.")
         } else {
-            player.sendMessage("§a다른 사람에게 갑옷이 다시 보이게 됩니다.")
+            player.sendMessage("§a다시 갑옷이 보이게 됩니다.")
         }
 
         return true
