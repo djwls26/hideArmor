@@ -119,7 +119,6 @@ object HideManager {
         val isHidden = hiddenPlayers.contains(player.uniqueId)
 
         val equipment = listOf(
-            ItemSlot.HEAD to player.inventory.helmet,
             ItemSlot.CHEST to player.inventory.chestplate,
             ItemSlot.LEGS to player.inventory.leggings,
             ItemSlot.FEET to player.inventory.boots
